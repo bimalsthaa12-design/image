@@ -147,7 +147,7 @@ span {
 }
 .box {
   /* border: 2px solid black; */
-  height: auto;
+  height: 400px;
   width: 23%;
   background-color: white;
   padding: 20px 0px 15px;
@@ -287,7 +287,7 @@ ul a {
   }
 
   .box {
-    height: auto;
+    height: 360px;
     width: 90%;
     margin-bottom: 15px;
   }
