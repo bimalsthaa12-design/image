@@ -166,8 +166,8 @@ span {
   margin-bottom: 1rem;
 }
 .boxcontent {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -192,18 +192,15 @@ footer {
 .foot-panel1 a{
   text-decoration: none;
   color: white;
-  font-size: 14px;
 }
 .foot-panel2 {
   background-color: #222f3d;
   color: white;
-  /* height: 400px; */
+  height: 400px;
   display: flex;
   justify-content: space-around;
   text-align: left;
   flex-wrap: wrap;
-  gap: 15px;
-  padding: 15px;
 }
 ul {
   margin-top: 20px;
@@ -308,13 +305,9 @@ ul a {
    .panelopps {
     display: none;
    }
-   /* .foot-panel2 {
+   .foot-panel2 {
     flex-direction: column;
     text-align: center;
     align-items: center;
-   } */
-    .footer{
-      flex-direction: column;
-      text-align: center;
-    }
+   }
 }
