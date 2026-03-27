@@ -241,48 +241,48 @@ ul a {
   padding-top: 5px;
 }
 /* --- RESPONSIVE ADJUSTMENTS --- */
-
-/* For Tablets and smaller screens (992px and below) */
-@media (max-width: 992px) {
-    .navsearch {
-        width: 400px; [span_5](start_span)/* Shrink search bar[span_5](end_span) */
-    }
-    
-    .box {
-        width: 45%; [span_6](start_span)/* Show 2 items per row instead of 4[span_6](end_span) */
-    }
-}
-
-/* For Mobile Phones (768px and below) */
 @media (max-width: 768px) {
-    .navbar {
-        flex-wrap: wrap; [span_7](start_span)/* Allow nav items to stack if needed[span_7](end_span) */
-        height: auto;
-        padding: 10px;
-    }
+  .navbar {
+    height: auto;
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
 
-    .navsearch {
-        width: 90%;
-        order: 3; [span_8](start_span)/* Move search bar below logo/signin[span_8](end_span) */
-        margin-top: 10px;
-    }
+  .navsearch {
+    width: 100%;
+    max-width: 100%;
+    margin: 5px 0;
+  }
 
-    .hero {
-        height: 300px; [span_9](start_span)/* Reduce hero height for smaller screens[span_9](end_span) */
-    }
+  .hero {
+    height: 260px;
+  }
 
-    .heromsg {
-        width: 90%;
-        font-size: 0.75rem; [span_10](start_span)/* Scale down text[span_10](end_span) */
-    }
+  .heromsg {
+    width: 95%;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
 
-    .box {
-        width: 90%; [span_11](start_span)/* Show 1 item per row[span_11](end_span) */
-    }
+  .shopsec {
+    padding: 15px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
 
-    .foot-panel2 {
-        flex-wrap: wrap; [span_12](start_span)/* Stack footer columns[span_12](end_span) */
-        height: auto;
-        padding-bottom: 20px;
-    }
+  .box {
+    height: 360px;
+  }
+
+  .boximg {
+    height: 240px;
+  }
+
+  .panel {
+    font-size: 0.85rem;
+    padding: 0 10px;
+    gap: 12px;
+  }
 }
