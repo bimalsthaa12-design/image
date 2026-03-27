@@ -9,7 +9,7 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-evenly; /*Add content goes toward left*/
+  justify-content: space-between; /*Add content goes toward left*/
 }
 /* Box 1 */
 .navlogo {
@@ -158,6 +158,7 @@ span {
     background:#4b6892;
 }
 .boximg {
+  width: 100%;
   height: 300px;
   background-size: cover;
   /* background-repeat: no-repeat; */
@@ -167,6 +168,9 @@ span {
 .boxcontent {
   margin-left: 1rem;
   margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .boxcontent p {
   color: #010e10;
@@ -194,7 +198,9 @@ footer {
   color: white;
   height: 400px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  text-align: left;
+  flex-wrap: wrap;
 }
 ul {
   margin-top: 20px;
@@ -240,7 +246,6 @@ ul a {
   text-align: center;
   padding-top: 5px;
 }
-/* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 768px) {
   .navbar {
     /* height: auto;
@@ -249,15 +254,16 @@ ul a {
     gap: 10px;
     justify-content: center; */
     flex-direction: column;
-    height: auto;
-    padding: 10px;
+    /* height: auto;
+    padding: 10px; */
+    align-items: center;
   }
 
   .navsearch {
     width: 100%;
     /* max-width: 100%;
     margin: 5px 0; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
 
   .hero {
@@ -287,7 +293,8 @@ ul a {
   }
 
   .boximg {
-    height: 140px;
+    height: auto;
+    padding: 10px;
   }
 
   /* .panel {
@@ -301,8 +308,6 @@ ul a {
    .foot-panel2 {
     flex-direction: column;
     text-align: center;
+    align-items: center;
    }
-}
-    gap: 12px;
-  }
 }
