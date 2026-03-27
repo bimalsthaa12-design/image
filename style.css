@@ -127,7 +127,7 @@ span {
 .heromsg {
   background-color: white;
   color: black;
-  height: 40px;
+  height: 44px;
   display: flex;
   align-items: center; /*vertically center*/
   justify-content: center; /* Horizontally center*/
