@@ -8,6 +8,7 @@
   background-color: #0f1111;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between; /*Add content goes toward left*/
 }
@@ -166,8 +167,8 @@ span {
   margin-bottom: 1rem;
 }
 .boxcontent {
-  /* margin-left: 1rem;
-  margin-right: 1rem; */
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
